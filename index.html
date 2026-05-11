@@ -39,6 +39,7 @@
             border-radius: 12px;
             padding: 1.5rem;
             margin-bottom: 1rem;
+            text-align: left;
         }
         .app-card h3 {
             color: #9945FF;
@@ -47,11 +48,30 @@
         .app-card p {
             color: #aaa;
             font-size: 0.95rem;
+            line-height: 1.5;
         }
         .contact {
             margin-top: 2rem;
             color: #666;
             font-size: 0.9rem;
+        }
+        .contact a {
+            color: #888;
+        }
+        .links {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        .links a {
+            color: #666;
+            font-size: 0.85rem;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .links a:hover {
+            color: #9945FF;
         }
     </style>
 </head>
@@ -63,11 +83,16 @@
         <div class="apps">
             <div class="app-card">
                 <h3>Solana Faucet</h3>
-                <p>Earn free Solana tokens. Claim your rewards daily.</p>
+                <p>Earn free Solana tokens. Claim your rewards daily, invite friends with referral codes, and withdraw your earnings to your wallet.</p>
             </div>
         </div>
 
-        <p class="contact">Contact: inisdibistudio@gmail.com</p>
+        <p class="contact">Contact: <a href="mailto:inisdibistudio@proton.me">inisdibistudio@proton.me</a></p>
+
+        <div class="links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-of-service.html">Terms of Service</a>
+        </div>
     </div>
 </body>
 </html>
